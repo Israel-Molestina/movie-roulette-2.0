@@ -39,7 +39,7 @@
 
             <div class="grid-y grid-padding-y grid-frame green">
 
-                <div class="cell medium-2 accordion blue" data-accordion data-allow-all-closed="true">
+                <div class="cell medium-12 accordion blue" data-accordion data-allow-all-closed="true">
 
                     <div class="accordion-item" data-accordion-item>
 
@@ -73,9 +73,49 @@
                                 </select>
                             </label>
 
-                        </div>
+                            <fieldset id="selectrate">
+
+                                <legend>Check The ratings</legend>
+
+                                <span class="nowrap"><input id="1star" name="star" value="1" type="radio" /><label for="1">1 star</label></span>
+                                <span class="nowrap"><input id="2star" name="star" value="3.5" type="radio" /><label for="2">2 star</label></span>
+                                <span class="nowrap"><input id="3star" name="star" value="5.5" type="radio" /><label for="3">3 star</label></span>
+                                <span class="nowrap"><input id="4star" name="star" value="7.5" type="radio" /><label for="4">4 star</label></span>
+                                <span class="nowrap"><input id="5star" name="star" value="8.5" type="radio" /><label for="5">5 star</label></span>
+
+                            </fieldset>
+
+                            <section id="Director">
+                            
+                                <label>Please Enter A Director Below
+                                    <input name="director" type="text" placeholder="Example: Guy Richie" aria-describedby="inputDirectorName">
+                                </label>
+                            
+                            </section>
+                                <section id="Actor">
+                                
+                                    <label>Please Enter An Actor Below
+                                        <input name="searchactor" type="text" placeholder="Example: Chris Pratt" aria-describedby="inputActorName">
+                                    </label>
+                                
+                            </section>
+
+                            <div class="formbuttons">
+                                <button type="submit" id="submit" class="success button">
+                                    Submit
+                                </button>
+            
+                                <button type="button" id="saveMovie" class="success button">
+                                    Save Movie
+                                </button>
+            
+                                <button type="button" id="watchPage" class="success button">
+                                    My Movies
+                                </button>
+
+                            </div>
                         
-                    </div>
+                        </div>
 
                 </div>
                     
