@@ -37,96 +37,87 @@
 
         <section class="cell medium-auto medium-cell-block-container grid-container">
 
-            <div class="grid-y grid-padding-y grid-frame green">
 
-                <div class="cell medium-12 accordion blue" data-accordion data-allow-all-closed="true">
+            <div class="grid-y grid-padding-y grid-frame blue" data-accordion data-allow-all-closed="true">
+            
+                <div class="accordion-item" data-accordion-item>
+                    <a href="#" class="accordion-title">Criteria</a>
+                    <div class="accordion-content" data-tab-content>
+                        <label>Select Menu
+                            <select class="genre">
+                                <option value="28">Action</option>
+                                <option value="12">Adventure</option>
+                                <option value="16">Animation</option>
+                                <option value="35">Comedy</option>
+                                <option value="80">Crime</option>
+                                <option value="99">Documentary</option>
+                                <option value="18">Drama</option>
+                                <option value="10751">Family</option>
+                                <option value="14">Fantasy</option>
+                                <option value="36">History</option>
+                                <option value="27">Horror</option>
+                                <option value="10402">Music</option>
+                                <option value="9648">Mystery</option>
+                                <option value="10749">Romance</option>
+                                <option value="878">Science Fiction</option>
+                                <option value="10770">TV Movie</option>
+                                <option value="53">Thriller</option>
+                                <option value="10752">War</option>
+                                <option value="37">Western</option>
+                            </select>
+                        </label>
 
-                    <div class="accordion-item" data-accordion-item>
-
-                        <a href="#" class="accordion-title">Criteria</a>
-
-                        <div class="accordion-content" data-tab-content>
-
-                            <label>Select Menu
-                                <select class="genre">
-
-                                    <option value="28">Action</option>
-                                    <option value="12">Adventure</option>
-                                    <option value="16">Animation</option>
-                                    <option value="35">Comedy</option>
-                                    <option value="80">Crime</option>
-                                    <option value="99">Documentary</option>
-                                    <option value="18">Drama</option>
-                                    <option value="10751">Family</option>
-                                    <option value="14">Fantasy</option>
-                                    <option value="36">History</option>
-                                    <option value="27">Horror</option>
-                                    <option value="10402">Music</option>
-                                    <option value="9648">Mystery</option>
-                                    <option value="10749">Romance</option>
-                                    <option value="878">Science Fiction</option>
-                                    <option value="10770">TV Movie</option>
-                                    <option value="53">Thriller</option>
-                                    <option value="10752">War</option>
-                                    <option value="37">Western</option>
-
-                                </select>
+                        <fieldset id="selectrate">
+                            <legend>Check The ratings</legend>
+                            <span class="nowrap"><input id="1star" name="star" value="1" type="radio" /><label for="1">1 star</label></span>
+                            <span class="nowrap"><input id="2star" name="star" value="3.5" type="radio" /><label for="2">2 star</label></span>
+                            <span class="nowrap"><input id="3star" name="star" value="5.5" type="radio" /><label for="3">3 star</label></span>
+                            <span class="nowrap"><input id="4star" name="star" value="7.5" type="radio" /><label for="4">4 star</label></span>
+                            <span class="nowrap"><input id="5star" name="star" value="8.5" type="radio" /><label for="5">5 star</label></span>
+                        </fieldset>
+                        
+                        <section id="Director">
+                        
+                            <label>Please Enter A Director Below
+                                <input name="director" type="text" placeholder="Example: Guy Richie" aria-describedby="inputDirectorName">
                             </label>
 
-                            <fieldset id="selectrate">
-
-                                <legend>Check The ratings</legend>
-
-                                <span class="nowrap"><input id="1star" name="star" value="1" type="radio" /><label for="1">1 star</label></span>
-                                <span class="nowrap"><input id="2star" name="star" value="3.5" type="radio" /><label for="2">2 star</label></span>
-                                <span class="nowrap"><input id="3star" name="star" value="5.5" type="radio" /><label for="3">3 star</label></span>
-                                <span class="nowrap"><input id="4star" name="star" value="7.5" type="radio" /><label for="4">4 star</label></span>
-                                <span class="nowrap"><input id="5star" name="star" value="8.5" type="radio" /><label for="5">5 star</label></span>
-
-                            </fieldset>
-
-                            <section id="Director">
-                            
-                                <label>Please Enter A Director Below
-                                    <input name="director" type="text" placeholder="Example: Guy Richie" aria-describedby="inputDirectorName">
-                                </label>
-                            
-                            </section>
-                                <section id="Actor">
-                                
-                                    <label>Please Enter An Actor Below
-                                        <input name="searchactor" type="text" placeholder="Example: Chris Pratt" aria-describedby="inputActorName">
-                                    </label>
-                                
-                            </section>
-
-                            <div class="formbuttons">
-                                <button type="submit" id="submit" class="success button">
-                                    Submit
-                                </button>
-            
-                                <button type="button" id="saveMovie" class="success button">
-                                    Save Movie
-                                </button>
-            
-                                <button type="button" id="watchPage" class="success button">
-                                    My Movies
-                                </button>
-
-                            </div>
+                        </section>
                         
-                        </div>
+                        <section id="Actor">
+                        
+                            <label>Please Enter An Actor Below
+                                <input name="searchactor" type="text" placeholder="Example: Chris Pratt" aria-describedby="inputActorName">
+                            </label>
+                            
+                        </section>
 
-                </div>
+                        <div class="formbuttons">
+                            <button type="submit" id="submit" class="success button">
+                                Submit
+                            </button>
+        
+                            <button type="button" id="saveMovie" class="success button">
+                                Save Movie
+                            </button>
+        
+                            <button type="button" id="watchPage" class="success button">
+                                My Movies
+                            </button>
+                        </div>
                     
-                <div class="cell medium-6 medium-cell-block-y">
+                    </div>
+                </div>
+                
+                <div class="cell medium-6 medium-cell-block-y green">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacus odio, accumsan id ullamcorper eget, varius nec erat. Nulla facilisi. Donec dui felis, euismod nec finibus vitae, dapibus quis arcu. Maecenas tempor et ipsum quis venenatis. Ut posuere sed augue sit amet efficitur. Sed imperdiet, justo id tempus rhoncus, est est viverra turpis, non vulputate magna lectus et nisl. Pellentesque ultrices porttitor vehicula. Ut aliquet efficitur ligula, a consectetur felis. Proin tristique ut augue nec luctus. Curabitur a sapien pretium, auctor elit a, efficitur erat. Donec tincidunt dui vel velit bibendum euismod. Cras vitae nibh dui. Aliquam erat volutpat. Etiam sit amet arcu a erat efficitur facilisis. Ut viverra dapibus turpis, et ornare justo. Integer in dui cursus, dignissim tortor a, hendrerit risus.</p>
                     <p>Suspendisse pulvinar, massa iaculis feugiat lobortis, dolor sapien vestibulum nulla, vel cursus tellus leo in lorem. Aliquam eu placerat urna. Suspendisse sed viverra orci, ut mattis neque. Fusce non ultrices nisi. In sagittis varius mollis. Quisque dolor quam, consectetur eu lacinia ac, ullamcorper vel arcu. Nullam mattis imperdiet nulla sed ornare. Praesent tristique, est id eleifend vestibulum, neque nibh condimentum ex, nec lobortis purus justo a libero. Phasellus id ex ac nunc hendrerit hendrerit. Nullam urna ipsum, rutrum at fringilla vel, venenatis non purus. Maecenas egestas ex vitae venenatis molestie. Ut et odio egestas, accumsan neque et, viverra nisl. Sed faucibus nec nulla sed imperdiet. Fusce quis sem ac urna semper tempor a id elit. Nulla fringilla vitae sapien a vehicula.</p>
                     <p>Suspendisse pulvinar, massa iaculis feugiat lobortis, dolor sapien vestibulum nulla, vel cursus tellus leo in lorem. Aliquam eu placerat urna. Suspendisse sed viverra orci, ut mattis neque. Fusce non ultrices nisi. In sagittis varius mollis. Quisque dolor quam, consectetur eu lacinia ac, ullamcorper vel arcu. Nullam mattis imperdiet nulla sed ornare. Praesent tristique, est id eleifend vestibulum, neque nibh condimentum ex, nec lobortis purus justo a libero. Phasellus id ex ac nunc hendrerit hendrerit. Nullam urna ipsum, rutrum at fringilla vel, venenatis non purus. Maecenas egestas ex vitae venenatis molestie. Ut et odio egestas, accumsan neque et, viverra nisl. Sed faucibus nec nulla sed imperdiet. Fusce quis sem ac urna semper tempor a id elit. Nulla fringilla vitae sapien a vehicula.</p>
                     <p>Suspendisse pulvinar, massa iaculis feugiat lobortis, dolor sapien vestibulum nulla, vel cursus tellus leo in lorem. Aliquam eu placerat urna. Suspendisse sed viverra orci, ut mattis neque. Fusce non ultrices nisi. In sagittis varius mollis. Quisque dolor quam, consectetur eu lacinia ac, ullamcorper vel arcu. Nullam mattis imperdiet nulla sed ornare. Praesent tristique, est id eleifend vestibulum, neque nibh condimentum ex, nec lobortis purus justo a libero. Phasellus id ex ac nunc hendrerit hendrerit. Nullam urna ipsum, rutrum at fringilla vel, venenatis non purus. Maecenas egestas ex vitae venenatis molestie. Ut et odio egestas, accumsan neque et, viverra nisl. Sed faucibus nec nulla sed imperdiet. Fusce quis sem ac urna semper tempor a id elit. Nulla fringilla vitae sapien a vehicula.</p>
                     <p>Suspendisse pulvinar, massa iaculis feugiat lobortis, dolor sapien vestibulum nulla, vel cursus tellus leo in lorem. Aliquam eu placerat urna. Suspendisse sed viverra orci, ut mattis neque. Fusce non ultrices nisi. In sagittis varius mollis. Quisque dolor quam, consectetur eu lacinia ac, ullamcorper vel arcu. Nullam mattis imperdiet nulla sed ornare. Praesent tristique, est id eleifend vestibulum, neque nibh condimentum ex, nec lobortis purus justo a libero. Phasellus id ex ac nunc hendrerit hendrerit. Nullam urna ipsum, rutrum at fringilla vel, venenatis non purus. Maecenas egestas ex vitae venenatis molestie. Ut et odio egestas, accumsan neque et, viverra nisl. Sed faucibus nec nulla sed imperdiet. Fusce quis sem ac urna semper tempor a id elit. Nulla fringilla vitae sapien a vehicula.</p>
                 </div>
-
+            </div>
+                
             
         </section>
         
