@@ -10,9 +10,7 @@
 #instructions{
     display: block;
 }
-#showmovie{
-    display: none;
-}
+
 #footer {
     background: #004346;
 }
@@ -89,4 +87,24 @@ footer {
 
 .blue {
     background-color: rgb(169, 169, 240);
+}
+
+.red {
+    background-color: red;
+}
+
+.margin-left {
+    margin-left: 10px;
+}
+
+.margin-right {
+    margin-right: 10px;
+} 
+
+.center {
+    text-align: center;
+}
+
+#showmovie{
+    display: none;
 }
