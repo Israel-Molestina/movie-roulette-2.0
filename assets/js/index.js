@@ -24,7 +24,7 @@ var sumBox = document.querySelector('#descrip');
 var insertTrailer = document.querySelector('#movieTrailer');
 var trailerEl = document.createElement('iframe');
 var posterEl = document.createElement('img');
-var movieTitleSpan = document.createElement('h2');
+var movieTitleSpan = document.createElement('h3');
 var summarySpan = document.createElement('p');
 var notFound = document.getElementById('notFound');
 var showMovieEl = document.getElementById('showmovie');
@@ -337,8 +337,8 @@ function insertMovieInfo(movieOption, posterPath){
 function insertMovieTrailer(newVidHTTP) {
     
     trailerEl.setAttribute('src', newVidHTTP);
-    trailerEl.setAttribute('width', 460);
-    trailerEl.setAttribute('height', 215);
+    trailerEl.setAttribute('width', '75%');
+    trailerEl.setAttribute('height', '100%');
 
     insertTrailer.appendChild(trailerEl);
 };

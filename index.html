@@ -38,7 +38,7 @@
         <section class="cell medium-auto medium-cell-block-container grid-container">
 
 
-            <div class="grid-y grid-padding-y grid-frame blue" data-accordion data-allow-all-closed="true">
+            <div class="grid-y grid-padding-y grid-frame margin-lr-frame" data-accordion data-allow-all-closed="true">
             
                 <div class="accordion-item" data-accordion-item>
 
@@ -114,17 +114,17 @@
 
                 <!--YOUR SELECTED MOVIE SECTION-->
                 
-                <section class="cell medium-6 medium-cell-block-y green" id="showmovie">
+                <section class="cell medium-12 medium-cell-block-y grey margin-section-b" id="showmovie">
 
-                    <div class="grid-x align-center center">
+                    <div class="grid-x align-center center margin-tb margin-lr-movie">
                         
-                        <div class="cell medium-8" id="movieTitle">
+                        <div class="cell medium-6 border-s" id="movieTitle">
 
                         </div>
 
                     </div>
 
-                    <div class="grid-x">
+                    <div class="grid-x hulu-green margin-tb margin-lr-movie">
 
                         <div class="cell medium-5 margin-left" id="movieTrailer">
 
@@ -135,9 +135,9 @@
                         </div>
                     </div>
 
-                    <div class="grid-x">
+                    <div class="grid-x margin-tb hulu-green margin-lr-movie margin-user-b">
 
-                        <fieldset class="cell medium-4 blue margin-left">
+                        <fieldset class="cell medium-4 margin-left">
                             <legend>What do you rate this movie?</legend>
                             <input id="1star" name="userStar" value="1" type="radio" /><label for="1">1 star</label>
                             <input id="2star" name="userStar" value="2" type="radio" /><label for="2">2 star</label>
@@ -146,10 +146,10 @@
                             <input id="5star" name="userStar" value="5" type="radio" /><label for="5">5 star</label>
                         </fieldset>
 
-                        <div class="cell medium-5 margin-left">
+                        <div class="margin-left cell medium-4">
     
                             <label> Your thoughts on the movie:
-                                <input id="userInput" type="text">
+                                <textarea id="userInput" type="text"></textarea>   
                             </label>
 
                         </div>

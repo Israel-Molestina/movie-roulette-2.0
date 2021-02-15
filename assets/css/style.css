@@ -78,23 +78,16 @@ button.success.button{
 
 footer {
     padding-bottom: 10px;
+    margin-top: 20px;
     background-color: cadetblue;
-}
-
-.green {
-    background-color: chartreuse;
-}
-
-.blue {
-    background-color: rgb(169, 169, 240);
-}
-
-.red {
-    background-color: red;
 }
 
 .margin-left {
     margin-left: 10px;
+}
+
+.padding-left {
+    padding-left: 20px;
 }
 
 .margin-right {
@@ -107,4 +100,45 @@ footer {
 
 #showmovie{
     display: none;
+}
+
+.overflow {
+    overflow: scroll;
+}
+
+.hulu-green {
+    background-color: #5ff85f;
+}
+
+body {
+    background: url(../pics/space-background.jpg);
+    background-size: 100%;
+    width: auto;
+}
+
+.grey {
+ background-color: rgb(172, 172, 172);
+}
+
+.margin-tb {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.margin-lr-frame {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.margin-lr-movie {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.border-s {
+    border: solid;
+}
+
+.margin-user-b {
+    margin-bottom: 50px;
 }
